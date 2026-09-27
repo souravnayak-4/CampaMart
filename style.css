@@ -1,0 +1,116 @@
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f5fa;color:#111827}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0}.app{max-width:430px;min-height:100vh;margin:auto;background:#fff;box-shadow:0 0 30px #0001}.screen{min-height:100vh;padding:20px 16px 90px}.center{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.back{width:48px;height:48px;border-radius:50%;background:#f7f7fa;font-size:25px}.top{display:flex;align-items:center;gap:12px;margin-bottom:18px}.top h1{font-size:26px;margin:0}.gradient{background:linear-gradient(135deg,#3d18c9,#6d32df);color:#fff}.orange{background:linear-gradient(135deg,#bd5d00,#f08b00);color:#fff}.teal{background:linear-gradient(135deg,#08758b,#16a2bc);color:#fff}.brand{min-height:100vh;padding:32px 16px}.brand h1{font-size:32px;margin:8px 0}.brand .hero{font-size:72px;margin:45px 0 15px}.role{width:100%;padding:16px;margin:6px 0;border-radius:13px;text-align:left;background:#fff;box-shadow:0 3px 12px #0002}.role strong{display:block;font-size:18px}.role small{color:#666}.btn{width:100%;padding:14px 18px;border-radius:12px;font-weight:800;margin-top:12px;background:#4b1fd4;color:#fff}.btn.orange{background:#e27b00}.btn.teal{background:#1098b1}.btn.outline{background:#fff;color:#4b1fd4;border:2px solid #4b1fd4}.btn.danger{background:#fff;color:#c33;border:2px solid #d66}.field{margin:15px 0}.field label{display:block;font-weight:700;color:#5e6573;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;padding:14px;border:1px solid #dddfe5;border-radius:12px;background:#fafafd}.field textarea{min-height:100px}.upload{padding:20px;border:2px dashed #ddd;border-radius:14px;background:#fafafa}.card{background:#fff;border:1px solid #eee;border-radius:18px;padding:16px;margin:12px 0;box-shadow:0 4px 15px #0000000b}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.tile{padding:18px;border-radius:15px;background:#f3efff}.tile h3{margin:7px 0}.tile p{margin:0;color:#666}.stat{padding:18px 8px;border-radius:15px;background:#ffffff22;text-align:center}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}.stats b{font-size:25px;display:block}.search{padding:14px;border:1px solid #ddd;border-radius:12px;width:100%;margin:8px 0 12px}.product{display:flex;gap:12px;align-items:center}.product-img{width:72px;height:85px;border-radius:10px;background:#dfe6ea;display:flex;align-items:center;justify-content:center;font-size:38px}.price{color:#13864a;font-weight:800}.chips{display:flex;gap:7px;overflow:auto;margin-bottom:12px}.chip{padding:9px 13px;border-radius:20px;background:#f0f0f5;white-space:nowrap}.chip.active{background:#4b1fd4;color:white}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:430px;width:100%;display:flex;justify-content:space-around;background:#fff;border-top:1px solid #eee;padding:10px 4px;z-index:5}.nav button{background:none;color:#666}.nav button.active{color:#4b1fd4;font-weight:800}.success-icon{font-size:75px;margin:40px 0 10px}.check{color:#16a34a;font-weight:700}.badge{display:inline-block;padding:8px 12px;border-radius:20px;background:#dcfce7;color:#15803d;font-weight:700}.pending{background:#fff7df;color:#a66b00}.row{display:flex;justify-content:space-between;gap:10px;align-items:center}.chat{background:#eef2ff;padding:12px;border-radius:14px;margin:8px 0}.chat.me{background:#dcfce7;margin-left:35px}.service{border-left:5px solid #e27b00}.small{color:#6b7280}.hide{display:none}
+
+
+/* CampaMart V2 additions */
+.profileHero{background:linear-gradient(135deg,#eef0ff,#ffffff);border-radius:24px;padding:28px 18px;text-align:center;margin-bottom:16px}
+.profileHero.teal{background:linear-gradient(135deg,#e5fbff,#ffffff)}
+.avatar{width:88px;height:88px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 10px;background:#fff;font-size:52px;box-shadow:0 5px 20px rgba(0,0,0,.08)}
+.profile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 16px}
+.mini-stat{background:#fff;border:1px solid #e8e8ef;border-radius:16px;padding:15px 8px;text-align:center;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+.mini-stat b{display:block;font-size:20px}
+.mini-stat span{font-size:12px;color:#6b7280}
+.solver-card{border:2px solid #e7e1ff}
+.solver-card .btn{margin-top:8px}
+select{width:100%;padding:14px;border:1px solid #ddd;border-radius:12px;background:#fff;font:inherit}
+
+.profileHero h2{word-break:break-word}.card p{line-height:1.45}
+
+/* V4 dashboard styling */
+.card.teal{background:linear-gradient(135deg,#08758b,#16a2bc);color:#fff}
+.card.orange{background:linear-gradient(135deg,#bd5d00,#f08b00);color:#fff}
+.card.teal .btn,.card.orange .btn{font-weight:800}
+
+.language-box{width:100%;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:18px;padding:15px;margin-top:12px}
+.language-box h3{margin:0 0 10px}
+.language-buttons{display:flex;gap:8px}
+.language-buttons button{flex:1;padding:11px 5px;border-radius:12px;background:#fff;color:#4b1fd4;font-weight:800}
+.language-buttons button.selected{outline:3px solid #ffd54a;background:#fffdf0}
+
+.global-lang{position:sticky;top:0;z-index:50;display:flex;justify-content:flex-end;gap:5px;padding:7px 10px;background:rgba(255,255,255,.95);border-bottom:1px solid #eee}
+.global-lang button{border:1px solid #ddd;background:#fff;border-radius:9px;padding:5px 8px;font-size:11px;font-weight:800}
+
+.langbar{display:flex;align-items:center;justify-content:flex-end;gap:5px;margin-bottom:10px}
+.langbar span{margin-right:3px}
+.langbar button{border:1px solid #ddd;background:#fff;border-radius:9px;padding:6px 9px;font-weight:800;font-size:11px}
+.langbar button.active{background:#4b1fd4;color:#fff;border-color:#4b1fd4}
+
+/* V8: persistent role tabs on inner prototype screens */
+.nav{position:sticky;bottom:0;z-index:20;margin-top:18px}
+.global-lang{z-index:30}
+
+/* V9 - fixed full-width bottom navigation */
+.screen{position:relative;min-height:100%;padding-bottom:92px!important}
+.nav{
+  position:fixed!important;
+  left:50%!important;
+  right:auto!important;
+  bottom:0!important;
+  transform:translateX(-50%)!important;
+  width:min(100%,480px)!important;
+  height:72px!important;
+  margin:0!important;
+  padding:6px 4px!important;
+  display:grid!important;
+  grid-template-columns:repeat(5,1fr)!important;
+  align-items:stretch!important;
+  justify-content:stretch!important;
+  background:#fff!important;
+  border-top:1px solid #e8e8ef!important;
+  border-radius:18px 18px 0 0!important;
+  box-shadow:0 -4px 18px rgba(0,0,0,.10)!important;
+  z-index:9999!important;
+  box-sizing:border-box!important;
+}
+.nav button{
+  width:100%!important;
+  min-width:0!important;
+  height:60px!important;
+  margin:0!important;
+  padding:5px 2px!important;
+  border:0!important;
+  border-radius:12px!important;
+  background:transparent!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:3px!important;
+  font-size:11px!important;
+  line-height:1.1!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+}
+.nav button.active{
+  background:#f0ebff!important;
+  color:#4b1fd4!important;
+  font-weight:800!important;
+}
+@media (min-width:700px){
+  .nav{width:480px!important;bottom:14px!important;border-radius:18px!important}
+}
+
+/* V10 UI fixes */
+.global-lang,.langbar{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:6px!important;flex-wrap:wrap!important}
+.global-lang span,.langbar span{font-size:12px;font-weight:700}
+.global-lang button,.langbar button{padding:6px 9px!important;border-radius:9px!important;border:1px solid #ddd!important;background:#fff!important;font-size:11px!important;font-weight:700!important}
+.nav{position:fixed!important;left:50%!important;right:auto!important;bottom:0!important;transform:translateX(-50%)!important;width:min(100%,480px)!important;height:72px!important;display:grid!important;grid-template-columns:repeat(5,1fr)!important;margin:0!important;padding:6px 4px!important;box-sizing:border-box!important;z-index:99999!important;background:#fff!important;border-top:1px solid #e8e8ef!important;border-radius:18px 18px 0 0!important;box-shadow:0 -4px 18px rgba(0,0,0,.1)!important}
+.nav button{width:100%!important;height:60px!important;margin:0!important;padding:5px 2px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;border:0!important;background:transparent!important}
+.nav button.active{background:#f0ebff!important;color:#4b1fd4!important;font-weight:800!important}
+.screen{padding-bottom:92px!important}
+.vault-item{margin-bottom:10px}
+
+/* UI fix: keep the top language navigation as one compact control */
+.langbar.single-lang{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:5px!important;margin-bottom:10px}
+.langbar.single-lang select{border:1px solid #ddd;background:#fff;border-radius:9px;padding:7px 28px 7px 9px;font-weight:800;font-size:11px;cursor:pointer}
+.vault-dept{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.vault-dept span{font-weight:900;padding:5px 10px;border-radius:999px;background:#f0edff;color:#4b1fd4}
+.vault-dept small{width:100%;display:block}
+
+
+/* V14: department selector + reliable clickable controls */
+.resource-dept-select{width:100%;margin-top:12px;padding:12px;border:1px solid #dddfe5;border-radius:12px;background:#fff;font-weight:700}
+.role-language-select{width:100%;padding:12px;border:0;border-radius:12px;background:#fff;color:#4b1fd4;font-weight:800}
+.language-box{box-sizing:border-box}
+button.btn,button.tile,button.role,button.chip,button.back,.nav button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.nav{pointer-events:auto!important}
+.nav button{pointer-events:auto!important}
